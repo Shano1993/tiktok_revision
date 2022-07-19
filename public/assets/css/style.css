@@ -17,7 +17,7 @@ h1 {
 
 #container {
     display: flex;
-    padding: 1.3rem 10rem;
+    padding: 1.3rem 20rem;
     justify-content: space-around;
     align-items: center;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.13);
@@ -79,5 +79,65 @@ a {
     border-left: 0.1rem solid black;
     font-size: 1.5rem;
     padding: 0.5rem 1.5rem;
+}
+
+#home {
+    width: 65%;
+    margin: 2rem auto;
+    display: flex;
+}
+
+#for_you {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+}
+
+#link_bar {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.13);
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+}
+
+#video {
+    width: 65%;
+}
+
+i, #info {
+    padding: 1.2rem;
+}
+
+#info {
+    margin: 1.5rem 0;
+}
+
+#color_red {
+    color: #fe2c55;
+}
+
+#info > p {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+#connect {
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.13);
+    padding-bottom: 2rem;
+}
+
+#connect > p {
+    text-align: center;
+    border: 0.1rem solid #fe2c55;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fe2c55;
+    border-radius: 0.5rem;
 }
 
