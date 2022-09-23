@@ -105,10 +105,6 @@ a {
     font-weight: bold;
 }
 
-#video {
-    width: 65%;
-}
-
 i, #info {
     padding: 1.2rem;
 }
@@ -126,7 +122,7 @@ i, #info {
     color: rgba(0, 0, 0, 0.42);
 }
 
-#connect {
+#connect, #account, #tags {
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.13);
     padding-bottom: 2rem;
 }
@@ -141,3 +137,154 @@ i, #info {
     border-radius: 0.5rem;
 }
 
+h2 {
+    margin: 1.5rem;
+    color: rgba(0, 0, 0, 0.42)
+}
+
+.profile {
+    border-radius: 100%;
+    width: 4rem;
+}
+
+.account {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.nameCertified {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nameSpan {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 1.2rem;
+}
+
+.check {
+    border-radius: 100%;
+    padding: 0.1rem;
+    background-color: #81acff;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+#view {
+    margin: 1.5rem;
+    color: #fe2c55;
+    font-size: 1.5rem;
+}
+
+.tag > span {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.56);
+    border: 0.1rem solid rgba(0, 0, 0, 0.56);
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+}
+
+.tag {
+    padding: 1rem;
+}
+
+.links {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.links > a {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+.links > a:hover {
+    text-decoration-line: underline;
+}
+
+#video {
+    width: 65%;
+    margin-left: 10rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.13);
+}
+
+.nameVideo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nameSpanVideo {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+#sub {
+    color: #fe2c55;
+    border: 0.1rem solid #fe2c55;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.accountVideo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.profileVideo {
+    border-radius: 100%;
+}
+
+.video {
+    width: 60%;
+    height: 60rem;
+    background-image: url("/assets/img/video.PNG");
+}
+
+.share {
+    width: 20%;
+}
+
+#videoShare {
+    display: flex;
+    margin: 1rem 15rem;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.button > a {
+    padding: 0.6rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 100%;
+}
+
+.button > a > i {
+    font-size: 2rem;
+    color: black;
+}
+
+.button > span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#music {
+    font-size: 1.5rem;
+}
